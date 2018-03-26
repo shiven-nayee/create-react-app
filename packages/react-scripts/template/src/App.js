@@ -5,8 +5,6 @@ import React, { Component } from 'react';
 import './css/App.css';
 
 // Component Imports
-import NavBar from './Components/Nav';
-import Home from './Components/Home';
 
 class App extends Component {
   render() {
