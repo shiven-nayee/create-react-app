@@ -60,7 +60,11 @@
     "webpack": "1.14.0",
     "webpack-dev-server": "1.16.2",
     "webpack-manifest-plugin": "1.1.0",
-    "whatwg-fetch": "2.0.2"
+    "whatwg-fetch": "2.0.2",
+    "node-sass-chokidar": "0.0.3",
+    "npm-run-all": "^4.1.2",
+    "reactstrap": "^5.0.0-beta.2",
+    "bootstrap": "^4.0.0"
   },
   "devDependencies": {
     "react": "^15.3.0",

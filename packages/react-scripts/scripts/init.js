@@ -26,10 +26,14 @@ module.exports = function(appPath, appName, verbose, originalDirectory, template
 
   // Setup the script rules
   appPackage.scripts = {
-    'start': 'react-scripts start',
-    'build': 'react-scripts build',
-    'test': 'react-scripts test --env=jsdom',
-    'eject': 'react-scripts eject'
+    "build-css": "node-sass-chokidar src/scss -o src/css",
+    "watch-css": "npm run build-css && node-sass-chokidar src/scss -o src/css --watch --recursive",
+    "start-js": "react-scripts start",
+    "start": "npm-run-all -p watch-css start-js",
+    "build-js": "react-scripts build",
+    "build": "npm-run-all build-css build-js",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   };
 
   fs.writeFileSync(
@@ -121,7 +125,7 @@ module.exports = function(appPath, appName, verbose, originalDirectory, template
   var displayedCommand = useYarn ? 'yarn' : 'npm';
 
   console.log();
-  console.log('Created ' + appName + ' at ' + appPath + 'Successfully');
+  console.log('Created ' + appName + ' at ' + appPath + 'successfully with custom configurations');
   console.log('Inside that directory, you can run several commands:');
   console.log();
   console.log(chalk.cyan('  ' + displayedCommand + ' start'));
