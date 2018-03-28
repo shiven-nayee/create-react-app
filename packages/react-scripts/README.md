@@ -22,10 +22,10 @@ This script currently installs:
 
 The following changes are made to the structure and components:
 
-• Creates components, css, and scss folders
-• Adds NavMenu and Body components
-• Configures components so SASS and bootstrap work right after installation
-• Adds hot reloading for SASS file changes
+* Creates components, css, and scss folders
+* Adds NavMenu and Body components
+* Configures components so SASS and bootstrap work right after installation
+* Adds hot reloading for SASS file changes
 
 The following changes are made to "Script" inside package.json:
 ```json

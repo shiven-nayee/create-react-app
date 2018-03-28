@@ -1,5 +1,8 @@
 # Shivens-react-script
-
+To use create-react-app using this script:
+```bash
+create-react-app [YourAppName] --scripts-version shivens-react-script
+```
 This is a package that contains custom scripts and configuration used by [Create React App](https://github.com/facebookincubator/create-react-app) on the "0.9.x" branch.<br>
 
 Documentation for the official [Create React App](https://github.com/facebookincubator/create-react-app) can be found here:
@@ -19,10 +22,10 @@ This script currently installs:
 
 The following changes are made to the structure and components:
 
-• Creates components, css, and scss folders
-• Adds NavMenu and Body components
-• Configures components so SASS and bootstrap work right after installation
-• Adds hot reloading for SASS file changes
+* Creates components, css, and scss folders
+* Adds NavMenu and Body components
+* Configures components so SASS and bootstrap work right after installation
+* Adds hot reloading for SASS file changes
 
 The following changes are made to "Script" inside package.json:
 ```json
