@@ -4,8 +4,8 @@ class Body extends Component {
     state = {}
     render() { 
         return ( 
-            <div>
-                Body
+            <div className="main-body">
+                <h1 style={{backgroundColor: "transparent"}}>BODY</h1>
             </div>
          )
     }

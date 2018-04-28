@@ -38,8 +38,3 @@ The following changes are made to "Script" inside package.json:
 "test": "react-scripts test --env=jsdom",
 "eject": "react-scripts eject"
 ```
-
-To use create-react-app using this script:
-```bash
-create-react-app [YourAppName] --scripts-version shivens-react-script
-```
