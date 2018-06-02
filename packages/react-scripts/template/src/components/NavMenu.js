@@ -29,7 +29,7 @@ class NavMenu extends Component {
     return (
       <Fragment>
         <Navbar dark expand="md">
-          <NavbarBrand href="shivennayee.com">Shiven N.</NavbarBrand>
+          <NavbarBrand href="shivennayee.com">Logo</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>

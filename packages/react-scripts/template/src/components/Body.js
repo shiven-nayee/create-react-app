@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 
+// Components
+import NavMenu from './NavMenu';
+
 class Body extends Component {
     state = {}
     render() { 
         return ( 
             <div className="main-body">
-                <h1 style={{backgroundColor: "transparent"}}>BODY</h1>
+                <NavMenu />
             </div>
          )
     }

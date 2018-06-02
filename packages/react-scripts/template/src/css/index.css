@@ -1,5 +1,11 @@
 /* Modify font-family in this file */
 
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #3c4556;
+}
+
 body {
   margin: 0;
   padding: 0;

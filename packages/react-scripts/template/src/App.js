@@ -5,14 +5,13 @@ import React, { Component } from 'react';
 import './css/App.css';
 
 // Component Imports
-import NavMenu from './components/NavMenu';
+import Body from './components/Body';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <NavMenu />
-        <h1>React</h1>
+        <Body />
       </div>
     );
   }
